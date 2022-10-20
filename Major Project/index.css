@@ -1,0 +1,117 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url('https://source.unsplash.com/1600x900/?weather');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* styling to card */
+#card{
+    background-color: white;
+    box-shadow: 5px 5px 40px black;
+    height: 32rem;
+    width: 35%;
+    max-width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0rem 2rem;
+    margin: 0rem 0rem;
+    line-height: 3rem;
+    border-radius: 2rem;
+    /* box-sizing: border-box; */
+}
+
+#search{
+    display: flex;
+    align-items: center;
+}
+/* searchbox styling */
+#searchbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 9rem;
+    max-width: 9rem ;
+    text-align: center;
+    width: 100%;
+}
+input#searchbox{
+    color: black;
+    text-align: left;
+}
+
+#btn{
+        margin: 0.5em;
+        border-radius: 50%;
+        border: none;
+        height: 50px;
+        width: 50px;
+        outline: none;
+        background: white;
+        color: black;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+}
+button{
+    height: 0px;
+    width: 0px;
+}
+#btn:hover{
+    background: #7c7c7c2b;
+        color: black;
+}
+
+input{
+    padding: 1rem 10rem;
+    border-radius: 2rem;
+}
+#search{
+    margin: 0rem 2rem;
+}
+/* description styling */
+#description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0rem 0rem;
+}
+#description img{
+    padding: 0rem 1rem;
+}
+/* styling to city,time and date */
+#city_time_date{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 3rem;
+}
+#information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#time_date{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0rem 2rem;
+}
